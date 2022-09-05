@@ -10,6 +10,16 @@
   * invalidate
   * check role by token
   * list all role by token
+
+#### Instruction
+
+  * Download file TestAuth2.jar into your local machine.
+  * Import TestAuth2.jar into your Java library as an dependency.
+  * Test out the API by creating an AuthAPI instance. You need to pass a Clock instance.
+
+  ```java
+     AuthAPI authAPI = new AuthAPI(Clock.systemDefaultZone());
+  ```
 #### High Level Design Solution
   1. Design 3 Object classes
   
